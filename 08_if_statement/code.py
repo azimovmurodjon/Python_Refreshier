@@ -15,6 +15,6 @@ elif day_of_week == "saturday":
 elif day_of_week == "sunday":
     print("It's Sunday")
 else:
-    print("Full speed ahead")
+    print("You should type Monday, monday or MONDAY")
 
 print("This always runs.")
