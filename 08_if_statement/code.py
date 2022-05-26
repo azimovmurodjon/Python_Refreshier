@@ -1,3 +1,8 @@
-day_of_week = input("What day of the week is today?")
+day_of_week = input("What day of the week is today?").lower()
 
-print(day_of_week == "Monday")
+if day_of_week == "monday":
+    print("Have great Start to your week")
+else:
+    print("Full speed ahead")
+
+print("This always runs.")
