@@ -27,3 +27,16 @@ print(list)
 sets.add("Anne")
 sets.add("Bob")
 print(sets)
+
+list = [20, 30, 50]
+list_count = list[0]+list[1]+list[2]
+print(list_count)
+
+
+my_tuple = (21)
+print(my_tuple)
+
+set1 = {14, 5, 9, 31, 12, 77, 67, 8}
+set2 = {5, 9, 77, 12}
+set3 = set1.intersection(set2)
+print(set3)
